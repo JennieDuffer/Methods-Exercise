@@ -20,15 +20,21 @@ using MethodExercise;
 
 //Console.WriteLine($"My name is {name}, my favorite color is {color}, my favorite animal is {animal}, and my favorite band is {band}.");
 
-Console.WriteLine(Methods.Add(2, 2));
+//Console.WriteLine(Methods.Add(2, 2));
 
-Console.WriteLine(Methods.Multiply(2, 2));
+//Console.WriteLine(Methods.Multiply(2, 2));
 
-Console.WriteLine(Methods.Subtract(2,2));
+//Console.WriteLine(Methods.Subtract(2,2));
 
-Console.WriteLine(Methods.Divide(2, 2));
+//Console.WriteLine(Methods.Divide(2, 2));
 
-Console.WriteLine(Methods.Modulus(2, 2));
+//Console.WriteLine(Methods.Modulus(2, 2));
+
+Console.WriteLine(Methods.AddWithParams(2, 4));
+
+Console.WriteLine(Methods.AddWithParams(2,4,6));
+
+Console.WriteLine(Methods.AddWithParams(1,1,1,1,1));
 
 
 

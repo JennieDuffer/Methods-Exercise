@@ -9,13 +9,13 @@ namespace MethodExercise
     internal class Methods
     {
         public static int Add(int x, int y)
-        { 
-            return x + y; 
+        {
+            return x + y;
         }
         public static int Multiply(int x, int y)
-        { 
+        {
             return x * y;
-        
+
         }
         public static int Subtract(int x, int y)
         {
@@ -27,13 +27,22 @@ namespace MethodExercise
             return x / y;
 
         }
-        
+
         public static int Modulus(int x, int y)
         {
-            return (x % y) * y;
+            return (x % y);
         }
 
-      
+        public static int AddWithParams(params int[] nums)
+        {
+            var sum = 0;
+            foreach (var x in nums)
+                sum += x;
+
+            return sum;
+
+        }
+    
     }
-  
 }
+         
